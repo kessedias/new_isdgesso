@@ -6,14 +6,9 @@ html, body {
 }
 
 .menu{
-    height: 80px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
-    background-color: #042159;
-    color: white
+    background-color: #042159 !important;
+    color: white;
+    font-size: 22px;
 }
 
 .carrousel{
@@ -58,4 +53,37 @@ html, body {
     bottom: 0;
     background-color: #000000;
     color: whitesmoke;
+}
+
+.anchor{
+    display: block;
+    height: 80px; 
+    margin-top: -80px; 
+    visibility: hidden;
+
+}
+
+.nav-link{
+    color: white !important;
+    opacity: 0.5;
+}
+
+.nav-link:hover{
+    color: lightgray !important;
+    transition: ease-in 1s;
+    opacity: 1;
+    font-size: 23px;
+}
+
+.logo{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.logo:hover{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 27px;
+    transition: ease-out 2s;
 }

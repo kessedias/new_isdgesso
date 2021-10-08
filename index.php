@@ -17,11 +17,37 @@
 
   <!-- MENU -->
   <header>
-    <div class="row menu">
+    <div class="row">
       <div class="col pr-0">
-        <p>menu</p>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top menu" id="menu">
+          <a class="navbar-brand logo homemenu" href="index.php#home">ISD GESSO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- //código do kesse -->
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav ml-auto mb-0">
+              <li class="nav-item">
+                <a class="nav-link homemenu" href="index.php#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link servicesmenu" href="#services">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link jobsmenu" href="#jobs">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link aboutmenu" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link contactmenu" href="#contact">Contato</a>
+              </li>
+          </ul></div>
+        </nav>
       </div>
     </div>
+
+    <a id="home" name="home" class="anchor"></a>
     <div class="row carrousel">
       <div class="col pr-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -65,7 +91,7 @@
 
   <!-- SERVIÇOS -->
   <section class="container">
-    <h2 class="text-center mt-1 mb-1">Serviços</h2>
+    <h2 class="text-center mt-1 mb-1"><a id="services" name="services" class="anchor"></a>Serviços</h2>
     <article class="row services">
       <div class="col">
         serviço 1
@@ -90,7 +116,7 @@
 
   <!-- PORTFÓLIO -->
   <section>
-    <h2 class="text-center mt-1 mb-1">Portfólio</h2>
+    <h2 class="text-center mt-1 mb-1"><a id="jobs" name="jobs" class="anchor"></a>Portfólio</h2>
     <article class="row jobs">
 
       <div class="col">
@@ -140,7 +166,7 @@
 
   <!-- SOBRE NÓS -->
   <section class="container">
-    <h2 class="text-center mt-1 mb-1">Sobre nós</h2>
+    <h2 class="text-center mt-1 mb-1"><a id="about" name="about" class="anchor"></a>Sobre nós</h2>
     <article class="row about">
       <div class="col">
          Historinha da empresa
@@ -149,8 +175,8 @@
   </section>
 
   <!-- CONTATO -->
-  <section>
-    <h2 class="text-center mt-1 mb-1">Contato</h2>
+  <section >
+    <h2 class="text-center mt-1 mb-1"><a id="contact" name="contact" class="anchor"></a>Contato</h2>
     <article class="row contact p-5">
       <div class="col-6" style="background-color: white; height: 400px;">
       </div> 
@@ -170,15 +196,14 @@
   </footer>
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script src="styles/js/script.js"></script>
 </body>
 
 </html>
