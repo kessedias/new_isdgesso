@@ -1,0 +1,61 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+.menu{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #042159;
+    color: white
+}
+
+.carrousel{
+    margin-top: 80px;
+}
+
+.services{
+    border: 3px solid black;
+    margin-top: 10px;
+    height: 150px;
+    background-color: #042159;
+    color: white;
+}
+
+.jobs{
+    margin-top: 10px;
+}
+
+.about{
+    border: 3px solid black;
+    margin-top: 10px;
+    height: 150px;
+    background-color: #042159;
+    color: white;
+}
+
+.contact{
+    border: 3px solid black;
+    margin-top: 10px;
+    height: auto;
+    background-color: #042159;
+    color: white;
+}
+
+
+.footer{
+    margin-top: 80px;
+    height: 80px;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    color: whitesmoke;
+}
